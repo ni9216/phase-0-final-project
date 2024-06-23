@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #110f10;
+    background: hsl(330, 6%, 6%);
     color: #ffa500;
 }
 
@@ -42,18 +42,18 @@ nav ul li{
 }
 
 nav ul li a{
-    color: hsl(271, 100%, 50%);
+    color: hsla(347, 100%, 50%, 0.89);
     text-decoration: none;
     font-size: 18px;
     position: relative;
     font-weight: 900;
+
 }
 
 nav ul li a::after{
-    content: '';
     width: 0;
     height: 3px;
-    background: #080808;
+    background: hsl(0, 69%, 48%);
     position: absolute;
     bottom: -6px;
     left: 0;
@@ -75,7 +75,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #080808;
+    color: hsl(0, 65%, 46%);
 }
 
 /*-------------about----------*/
